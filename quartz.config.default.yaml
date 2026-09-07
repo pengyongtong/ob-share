@@ -1,17 +1,14 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: pytDocs
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
-  ignorePatterns:
-    - private
-    - templates
-    - .obsidian
+  baseUrl: pengyongtong.github.io/ob-share
+  ignorePatterns:["private", ".obsidian"]
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
